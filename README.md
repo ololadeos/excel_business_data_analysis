@@ -12,6 +12,10 @@ Monitor sales performance, customer activity, product demand and payment status 
 - Applied IF, IFERROR, SUMIFS and COUNTIFS for business logic and analysis.
 - Built PivotTables, PivotCharts, slicers and KPI calculations to support interactive reporting.
 
+### Executive dashboard
+
+![Executive sales performance dashboard](sales-performance-analysis/executive_sales_dashboard.png)
+
 ### Key metrics
 
 | Metric | Result |
@@ -56,6 +60,14 @@ All three refreshed summaries reconcile to the consolidated dataset's known reve
 - Furniture contributed approximately 63% of known revenue.
 - Ontario generated the highest regional revenue.
 - Nova Scotia and Manitoba each achieved approximately 73% of their regional targets; no region reached its full target.
+
+### Regional performance summary
+
+![Regional revenue and target summary](power-query-data-cleaning/Regional_Summary.png)
+
+### Power Query transformation steps
+
+![Power Query applied steps](power-query-data-cleaning/power_query_applied_steps.png)
 
 ### Data quality and limitations
 The final workbook retains five repeated order IDs and unmatched reference records. Counts represent sales records rather than distinct orders, and revenue totals reflect the saved data as provided; duplicate records may overstate revenue. Missing product pricing can result in null revenue. These exceptions should be resolved before using the report for operational decisions.
